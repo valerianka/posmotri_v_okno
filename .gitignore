@@ -1,0 +1,6 @@
+node_modules/ .
+.prettierrc
+node_modules/
+package-lock.json
+package.json
+stylelint.config.js
