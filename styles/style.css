@@ -90,8 +90,8 @@ ol {
 }
 
 .title {
-  margin-bottom: 26px;
-  height: 210px;
+  margin-bottom: 22px;
+  min-height: 210px;
   font-family: Oswald;
   font-size: 75px;
   font-weight: 700;
@@ -269,7 +269,7 @@ input[type='checkbox']:focus {
 
 .content__video-card {
   display: flex;
-  height: 107px;
+  min-height: 107px;
   width: 100%;
   border-color: transparent;
   padding-top: 1px;
