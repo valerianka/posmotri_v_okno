@@ -54,7 +54,7 @@ ol {
 .content {
   display: flex;
   width: 1140px;
-  gap: 30px;
+  gap: 28px;
   margin: 133px 30px;
   justify-content: space-around;
   align-items: flex-end;
@@ -71,7 +71,7 @@ ol {
 .content__list {
   position: relative;
   width: 401px;
-  height: 298px;
+  height: 300px;
   overflow-y: scroll;
   scrollbar-width: none;
 }
@@ -91,6 +91,7 @@ ol {
 
 .title {
   margin-bottom: 22px;
+  margin-left: 2px;
   min-height: 210px;
   font-family: Oswald;
   font-size: 75px;
@@ -121,7 +122,7 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   height: 22px;
   margin-left: 1px;
 }
@@ -167,7 +168,6 @@ input[type='checkbox']:focus {
   line-height: 21.6px;
   text-align: center;
   cursor: pointer;
-  margin: 1px;
 }
 
 .button:focus {
@@ -193,11 +193,13 @@ input[type='checkbox']:focus {
 
 .more-button {
   width: 399px;
+  margin: 1px;
 }
 
 .search-form__checkbox-list {
   display: flex;
   width: 212px;
+  margin-left: 1px;
   font-family: 'Fira Sans Condensed';
   font-size: 18px;
   font-weight: 400;
@@ -250,7 +252,7 @@ input[type='checkbox']:focus {
   position: relative;
   height: 386px;
   width: 711px;
-  margin-bottom: 12px;
+  margin-bottom: 17px;
 }
 
 .result__video {
