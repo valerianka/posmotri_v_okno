@@ -26,9 +26,6 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  border-color: transparent;
-  padding-top: 1px;
-  overflow: hidden;
 }
 
 h1,
