@@ -67,6 +67,7 @@ ol {
 }
 
 .content__list {
+  position: relative;
   width: 401px;
   height: 300px;
   overflow-y: scroll;
