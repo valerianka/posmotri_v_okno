@@ -19,6 +19,7 @@ html {
 }
 
 .page {
+  display: flex;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -26,6 +27,11 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  border-color: transparent;
+  padding-top: 1px;
+  overflow: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 h1,
@@ -55,7 +61,6 @@ ol {
   margin: 133px 30px;
   justify-content: space-around;
   align-items: flex-end;
-  justify-items: center;
 }
 
 .search-form {
@@ -66,7 +71,6 @@ ol {
 }
 
 .content__list {
-  position: relative;
   width: 401px;
   height: 300px;
   overflow-y: scroll;
@@ -141,9 +145,8 @@ ol {
 
 input[type='checkbox']:checked + span::after {
   content: '';
-  position: absolute;
-  top: 2px;
-  left: 2px;
+  display: block;
+  margin: 2px;
   width: 14px;
   height: 14px;
   background-color: white;
