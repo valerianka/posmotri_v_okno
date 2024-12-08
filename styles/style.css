@@ -318,9 +318,8 @@ input[type='checkbox']:focus {
 }
 
 .content__video-card-description-container {
-  width: 100%;
+  width: 202px;
   height: 100%;
-  overflow: hidden;
 }
 
 .content__card-link_current {
